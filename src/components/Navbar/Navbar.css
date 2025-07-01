@@ -1,0 +1,35 @@
+.container {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1em;
+  padding: 1em;
+}
+.item {
+  flex-wrap: wrap;
+}
+.item5 button {
+  padding: 0.5em;
+  border-radius: 20px;
+}
+@media (max-width: 350px) {
+  .box .item {
+    font-size: 0.5em;
+  }
+}
+@media (max-width: 230px) {
+  .box {
+    display: flex;
+    flex-direction: column;
+  }
+}
