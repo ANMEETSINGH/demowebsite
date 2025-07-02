@@ -8,13 +8,15 @@ import { CiMail } from "react-icons/ci";
 const Hero = () => {
   return (
     <div className="HeroContainer">
-      <div className="HeroContent">
-        <h1>Hi, I'm Anmeet</h1>
-        <br />
-        <h2>Full Stack Developer</h2>
-        <div className="herobutton">
-          <button>Get in touch</button>
-          <button>Resume</button>
+      <div className="MainContainer">
+        <div className="HeroContent">
+          <h1>Hi, I'm Anmeet Singh</h1>
+          <br />
+          <h2>Full Stack Developer</h2>
+          <div className="herobutton">
+            <button>Get in touch</button>
+            <button>Resume</button>
+          </div>
           <div className="connect">
             <CiTwitter />
             <LuGithub />
@@ -22,9 +24,9 @@ const Hero = () => {
             <CiMail />
           </div>
         </div>
-      </div>
-      <div className="HeroImage">
-        <img className="Photo" src={Photo} alt="" />
+        <div className="HeroImage">
+          <img className="Photo" src={Photo} alt="" />
+        </div>
       </div>
     </div>
   );
