@@ -1,4 +1,5 @@
 import React from "react";
+import { FiDownload } from "react-icons/fi";
 import "./Navbar.css";
 const Navbar = () => {
   return (
@@ -17,7 +18,10 @@ const Navbar = () => {
           Skills
         </a>
         <a className="item item5" href="">
-          <button>Resume</button>
+          <button>
+            <FiDownload />
+            <div> Resume</div>
+          </button>
         </a>
       </div>
     </div>
