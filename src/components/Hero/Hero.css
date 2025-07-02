@@ -1,0 +1,12 @@
+.HeroContainer {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  padding: 12em;
+}
+.Photo {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
